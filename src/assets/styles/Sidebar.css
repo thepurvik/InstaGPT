@@ -1,0 +1,27 @@
+:root {
+  --skyblue: #04bcff;
+  --white: #ffffff;
+}
+
+.sidebar-nav-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 89vh;
+}
+.logo-icon {
+  text-align: center;
+  background-color: var(--skyblue);
+  padding: 20px 0px;
+}
+.sidebar-conatiner ul {
+  text-align: center;
+  padding: 0;
+}
+.sidebar-conatiner ul li {
+  list-style: none;
+  padding: 15px 0px;
+}
+.sidebar-conatiner ul li a img {
+  width: 50px;
+}

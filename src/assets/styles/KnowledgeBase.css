@@ -1,0 +1,140 @@
+.knowledgebase-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.12px;
+  line-height: 31px;
+  color: #04bcff;
+}
+
+.textarea-custom {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 65%);
+}
+.textarea-custom label {
+  background: #e6e5ee;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #083541;
+}
+.textarea-custom textarea {
+  resize: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+.textarea-custom textarea::placeholder {
+  text-align: center;
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.51px;
+  line-height: 31px;
+  color: #939598;
+}
+.textarea-custom textarea:focus-visible {
+  border: none;
+  outline: none;
+}
+
+button.btn.btn-submit-discard {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 65%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.59px;
+  line-height: 23px;
+  width: 144px;
+  max-width: 45%;
+  color: #6b868d;
+  height: 50px;
+  font-family: 'OpenSans-SemiBold';
+  border: none;
+}
+button.btn.btn-submit-save {
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 65%);
+  background: rgba(4, 188, 255, 0.65);
+  font-weight: 700;
+  font-size: 17.73px;
+  width: 144px;
+  max-width: 45%;
+  line-height: 24px;
+  color: #ffffff;
+  height: 50px;
+  font-family: 'OpenSans-SemiBold';
+  border: 2px solid rgba(4, 188, 255, 0.65);
+  border: none;
+}
+button.btn.btn-submit-discard:active,
+button.btn.btn-submit-save:active {
+  border: none;
+}
+
+.select-custom label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #6b868d;
+}
+
+.select-custom select {
+  height: 55px;
+  box-shadow: 0px 0px 3px 2px #00000057;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(../icons/arrow_grey.svg);
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #083541;
+  border: none;
+}
+.select-custom select:focus {
+  box-shadow: 0px 0px 3px 2px #00000057;
+}
+.select-hour select {
+  width: 70px;
+}
+
+button.btn.btn-submit-add {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 65%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.59px;
+  line-height: 23px;
+  width: 144px;
+  max-width: 45%;
+  color: #04bcff;
+  height: 50px;
+  font-family: 'OpenSans-SemiBold';
+  border: none;
+}
+/* button.btn.btn-submit-add span {
+  color: #04bcff;
+} */
+
+@media (max-width: 768px) {
+  .textarea-custom textarea {
+    font-size: 15.51px;
+  }
+  .textarea-custom textarea::placeholder {
+    padding-top: 5px;
+    font-size: 10px;
+  }
+}
